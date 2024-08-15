@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1440px;
+  height: 800px;
+  background-color: #c6c6c6;
+}
+#content section {
+  height: 400px;
+  width: 1110px;
+  outline: 5px solid rgb(82, 231, 40);
+  background-color: #a7a7a7;
+}
+#content .divisao_titulo {
+  height: 136px;
+}
+
+.divisao_indicadores {
+  width: 100%;
+  background-color: #b4b4b4;
+  height: 200px;
+  display: flex;
+  gap: 30px;
+}
+
+.card {
+  height: 216px;
+  width: 255px;
+  background-color: rgb(179, 179, 179);
+}
+.card .card_borda {
+  height: 5px;
+  background-color: white;
+}/*# sourceMappingURL=style.css.map */
